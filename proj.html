@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="proj.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2>MyPortfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-image">
+                    <img src="Photo.jpg" alt="Profile Picture">
+                </div>
+                <div class="hero-content">
+                    <h1>Hi, I'm <span>Avutala Dhruvish Reddy</span></h1>
+                    <p>Creative, passionate developer who loves challenges and finding solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-box">
+                <h2>About Me</h2>
+                <p>I work well with any team and believe that collaboration with great people leads to even better outcomes. I thrive in environments where sharing knowledge and fostering innovation is key to success.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="skills-box">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">Web Development</div>
+                    <div class="skill">Python</div>
+                    <div class="skill">Java</div>
+                    <div class="skill">C</div>
+                    <div class="skill">Backend Development</div>
+                    <div class="skill">Project Management</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <a href="https://github.com/ADR74/Fruit_Detector_Model" target="_blank" class="social-icon">
+                        <img src="Project-photo-1.jpg" alt="Project 1">
+                        <div class="portfolio-hover">
+                            <h3>Fruit Detector</h3>
+                            <p>Encountered difficulties in feature extraction and model creation. Collaborated with a team member to refine the architecture and preprocess the dataset, ensuring accurate fruit classification.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://github.com/ADR74/Skin_Cancer_Detection_Model" target="_blank" class="social-icon">
+                        <img src="Project-photo-2.jpg" alt="Project 2">
+                        <div class="portfolio-hover">
+                            <h3>Skin Cancer Detection</h3>
+                            <p>Faced issues with overfitting and training inefficiencies. Added extra layers, dropout regularization, and tuned hyperparameters to optimize model performance and improve generalization.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://github.com/ADR74/Stock_Price_Prediction_Using_LSTM_and_Sentimental_Analysis" target="_blank" class="social-icon">
+                        <img src="Project-photo-3.jpg" alt="Project 3">
+                        <div class="portfolio-hover">
+                            <h3>Stock Price Prediction Using LSTM and Sentimental Analysis</h3>
+                            <p>We faced challenges using tools like BERT or VADER due to subscription requirements and real-time data limitations. To overcome this, we created a custom sentiment dataset with predefined scores, simplifying integration and enabling effective sentiment analysis.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Colleagues Say</h2>
+            <div class="testimonial">
+                <p>"Working with Dhruvish has been an inspiring experience. His innovative mindset and determination to solve challenges make him a standout teammate."</p>
+                <h4>- Gudla Monish</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Dhruvish brings unparalleled energy and creativity to every project. His ability to think outside the box and deliver results is truly commendable."</p>
+                <h4>- Venkata Durga Sai</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I’ve always admired Dhruvish's dedication and problem-solving skills. He is a true asset to any team, always ready to go the extra mile."</p>
+                <h4>- Chilaka Sai Raghavendra</h4>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>    
+    <section class="social-links-section">
+        <div class="container">
+            <a href="https://github.com/ADR74" target="_blank" class="social-icon">
+                <img src="github_photo.jpg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/dhruvish-reddy-avutala-8789522b4/" target="_blank" class="social-icon">
+                <img src="link_photo.jpg" alt="LinkedIn">
+            </a>
+            <a href="https://www.hackerrank.com/profile/dhruvish_adr" target="_blank" class="social-icon">
+                <img src="hacker_photo.jpg" alt="HackerRank">
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Avutala Dhruvish Reddy. All Rights Reserved.</p>
+    </footer>
+    <script src="proj.js"></script>
+</body>
+</html>
